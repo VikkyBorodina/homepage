@@ -1,13 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    ― Hello World! &#x1F609;
+    <main>
+        <div class="resume">
+            <div class="container">
+                <div class="resume__block">
+                    <h1 class="contact-info__header">Viktoria Borodina</h1>
+                    <h3 class="contact-info__sub-header">Front-End Developer</h3>
+
+                    <div class="contact_info_container fh">
+                        <div class="contact-info__block">
+
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32zM0 192H448V464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192zM64 304C64 312.8 71.16 320 80 320H112C120.8 320 128 312.8 128 304V272C128 263.2 120.8 256 112 256H80C71.16 256 64 263.2 64 272V304zM192 304C192 312.8 199.2 320 208 320H240C248.8 320 256 312.8 256 304V272C256 263.2 248.8 256 240 256H208C199.2 256 192 263.2 192 272V304zM336 256C327.2 256 320 263.2 320 272V304C320 312.8 327.2 320 336 320H368C376.8 320 384 312.8 384 304V272C384 263.2 376.8 256 368 256H336zM64 432C64 440.8 71.16 448 80 448H112C120.8 448 128 440.8 128 432V400C128 391.2 120.8 384 112 384H80C71.16 384 64 391.2 64 400V432zM208 384C199.2 384 192 391.2 192 400V432C192 440.8 199.2 448 208 448H240C248.8 448 256 440.8 256 432V400C256 391.2 248.8 384 240 384H208zM320 432C320 440.8 327.2 448 336 448H368C376.8 448 384 440.8 384 432V400C384 391.2 376.8 384 368 384H336C327.2 384 320 391.2 320 400V432z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>I am 29 years old</span>
+                            </a>
+
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 384 512">
+                                        <path
+                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Lviv, Ukraine</span>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/-viktoria-borodina/" rel="author"
+                                class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>Viktoria Borodina</span>
+                            </a>
+                        </div>
+
+                        <div class="contact-info__block contact-info__block--center">
+                            <img class="contact-info__avatar" src="img/VBorodina.jpg" alt="Avatar">
+                        </div>
+
+                        <div class="contact-info__block">
+                            <a href="mailto:borodina2701@gmail.com" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>borodina2701@gmail.com</span>
+                            </a>
+
+                            <a href="tel:+380994094291" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path
+                                            d="M320 0H64C37.49 0 16 21.49 16 48v416C16 490.5 37.49 512 64 512h256c26.51 0 48-21.49 48-48v-416C368 21.49 346.5 0 320 0zM192 464c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 464 192 464z" />
+                                    </svg>
+                                </div>
+                                <span>+38(099)409-42-91</span>
+                            </a>
+
+                            <a href="https://github.com/VikkyBorodina" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg>
+                                </div>
+                                <span>Viktoria Borodina</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="intro">
+                        <div class="intro__icon-wrapper">
+                            <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p class="intro_text"> I have the skills to work with Power BI, Visual Basic, Microsoft
+                            Office. I have skills of control over performance of the set tasks, statement for tasks
+                            of inspection of the purposes, search of errors in performance of inquiries, analytical
+                            abilities at a high level. Knowledge of English at the A2 level. I am fluent in
+                            Ukrainian and Russian. I have the skill of writing articles for the university
+                            periodical. In free time like painting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="resume__block">
+                    <div class="skills">
+                        <h3 class="skills__header">Skills</h3>
+                        <p class="skills__text">HTML, CSS, JS, GIT, Power BI, Microsoft Office, Visual Basic, English -
+                            A2, Self-control, Respect for details, Steadiness, Punctuality, Exactingness </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="main-info fh">
+
+                        <div class="experiences">
+                            <h3 class="experiences__header">Experience</h3>
+                            <div class="experiences__company">
+                                <div class="experiences__company-header">
+                                    <span class="experiences__company-header-durability">July 2015 - present</span>
+                                    <h3 class="experiences__company-header-name">Епіцентр К ТОВ, ПрАТ "Нова Лінія"</h3>
+                                </div>
+
+                                <div class="experiences__company-project">
+                                    <span class="experiences__company-project-role">Financial Data Analyst</span>
+                                    <h3 class="experiences__company-project-name">Financial and analytical department
+                                    </h3>
+                                    <ul class="experiences__company-project-responsibilities">
+                                        <li>Control and statement of tasks for the achievement and reduction of
+                                            financial indicators in the departments;</li>
+                                        <li> Control of commodity-material values;</li>
+                                        <li> Analysis of financial indicators;</li>
+                                        <li> Implementation of financial statements and service notes on the basis of
+                                            them;</li>
+                                        <li> Creating an orders on goods.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="additional-info fv">
+                            <div class="additional-info__education">
+                                <h3 class="additional-info__education-header">Education</h3>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability">Sep 2010 - June
+                                        2015</span>
+                                    <h3 class="additional-info__education-university-speciality">specialty "Economic
+                                        Cybernetics", master</h3>
+                                    <p class="additional-info__education-university-name">Kherson National Technical
+                                        University</p>
+                                </div>
+                            </div>
+
+                            <div class="additional-info__languages">
+                                <h3 class="additional-info__languages-header">Languages</h3>
+                                <p> English (Intermediate)
+                                </p>
+                                <p class="additional-info__languages-item">
+                                    Ukrainian (Native)
+                                </p>
+                                <p class="additional-info__languages-item">
+                                    Russia (Understand)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>
